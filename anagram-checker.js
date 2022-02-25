@@ -4,7 +4,7 @@ module.exports = function scanString(str) {
 }
 
 function isAnagram(stringA, stringB) {
-  if (scanString(stringA) == scanString(stringB)) {
+  if (scanString(stringA) === scanString(stringB)) {
     return true;
   } else {
     return false;
